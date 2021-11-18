@@ -1,0 +1,117 @@
+<http://www.dhoxss.org/architect/graph> {
+
+
+<http://www.researchspace.org/resource/architect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://www.researchspace.org/resource/architect> <http://www.w3.org/2004/02/skos/core#prefLabel> "architect" .
+<http://www.researchspace.org/profession/architect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
+<http://www.researchspace.org/profession/architect> <http://www.w3.org/2000/01/rdf-schema#label> "Architect" .
+<http://www.wikidata.org/entity/Q314886> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+<http://www.wikidata.org/entity/Q314886> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/architect> .
+<http://www.wikidata.org/entity/Q314886/appellation/Jo%C5%BEe%20Ple%C4%8Dnik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
+<http://www.wikidata.org/entity/Q314886> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://www.wikidata.org/entity/Q314886/appellation/Jo%C5%BEe%20Ple%C4%8Dnik> .
+<http://www.wikidata.org/entity/Q314886/appellation/Jo%C5%BEe%20Ple%C4%8Dnik> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Jože Plečnik" .
+<http://www.wikidata.org/entity/Q314886/appellation/Jo%C5%BEe%20Ple%C4%8Dnik> <http://www.w3.org/2000/01/rdf-schema#label> "Jože Plečnik" .
+<http://www.wikidata.org/entity/Q314886> <http://www.w3.org/2000/01/rdf-schema#label> "Jože Plečnik" .
+<http://www.wikidata.org/entity/Q314886> <http://www.researchspace.org/ontology/PX_profession> <http://www.researchspace.org/profession/architect> .
+<http://www.researchspace.org/id/country/Yugoslavia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
+<http://www.wikidata.org/entity/Q314886> <http://www.researchspace.org/ontology/PX_nationality> <http://www.researchspace.org/id/country/Yugoslavia> .
+<http://www.researchspace.org/id/country/Yugoslavia> <http://www.w3.org/2000/01/rdf-schema#label> "Yugoslavia" .
+<http://www.researchspace.org/id/country/Yugoslavia> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/group/nation> .
+<http://www.researchspace.org/id/place/Ljubljana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<http://www.wikidata.org/entity/Q314886/birth/time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+<http://www.wikidata.org/entity/Q314886/birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> .
+<http://www.wikidata.org/entity/Q314886> <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born> <http://www.wikidata.org/entity/Q314886/birth> .
+<http://www.wikidata.org/entity/Q314886/birth> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://www.wikidata.org/entity/Q314886/birth/time> .
+<http://www.wikidata.org/entity/Q314886/birth/time> <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within> "1872-01-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.wikidata.org/entity/Q314886/birth> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://www.researchspace.org/id/place/Ljubljana> .
+<http://www.researchspace.org/id/place/Ljubljana> <http://www.w3.org/2000/01/rdf-schema#label> "Ljubljana" .
+<http://www.wikidata.org/entity/Q314886/death/time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+<http://www.wikidata.org/entity/Q314886/death> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E69_Death> .
+<http://www.wikidata.org/entity/Q314886> <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in> <http://www.wikidata.org/entity/Q314886/death> .
+<http://www.wikidata.org/entity/Q314886/death> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://www.researchspace.org/id/place/Ljubljana> .
+<http://www.wikidata.org/entity/Q314886/death> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://www.wikidata.org/entity/Q314886/death/time> .
+<http://www.wikidata.org/entity/Q314886/death/time> <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within> "1957-01-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.researchspace.org/id/group/Slovenian%20Academy%20of%20Sciences%20and%20Arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
+<http://www.wikidata.org/entity/Q314886> <http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of> <http://www.researchspace.org/id/group/Slovenian%20Academy%20of%20Sciences%20and%20Arts> .
+<http://www.researchspace.org/id/group/Slovenian%20Academy%20of%20Sciences%20and%20Arts> <http://www.w3.org/2000/01/rdf-schema#label> "Slovenian Academy of Sciences and Arts" .
+<http://www.researchspace.org/id/group/Slovenian%20Academy%20of%20Sciences%20and%20Arts> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/group/organisation> .
+<http://www.researchspace.org/id/gender/male> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
+<http://www.wikidata.org/entity/Q314886> <http://www.researchspace.org/ontology/PX_gender> <http://www.researchspace.org/id/gender/male> .
+<http://www.researchspace.org/id/gender/male> <http://www.w3.org/2000/01/rdf-schema#label> "male" .
+<http://www.wikidata.org/entity/Q313828> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+<http://www.wikidata.org/entity/Q313828> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/architect> .
+<http://www.wikidata.org/entity/Q313828/appellation/Ivan%20Me%C5%A1trovi%C4%87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
+<http://www.wikidata.org/entity/Q313828> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://www.wikidata.org/entity/Q313828/appellation/Ivan%20Me%C5%A1trovi%C4%87> .
+<http://www.wikidata.org/entity/Q313828/appellation/Ivan%20Me%C5%A1trovi%C4%87> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Ivan Meštrović" .
+<http://www.wikidata.org/entity/Q313828/appellation/Ivan%20Me%C5%A1trovi%C4%87> <http://www.w3.org/2000/01/rdf-schema#label> "Ivan Meštrović" .
+<http://www.wikidata.org/entity/Q313828> <http://www.w3.org/2000/01/rdf-schema#label> "Ivan Meštrović" .
+<http://www.wikidata.org/entity/Q313828> <http://www.researchspace.org/ontology/PX_profession> <http://www.researchspace.org/profession/architect> .
+<http://www.wikidata.org/entity/Q313828> <http://www.researchspace.org/ontology/PX_nationality> <http://www.researchspace.org/id/country/Yugoslavia> .
+<http://www.researchspace.org/id/place/Vrpolje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<http://www.wikidata.org/entity/Q313828/birth/time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+<http://www.wikidata.org/entity/Q313828/birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> .
+<http://www.wikidata.org/entity/Q313828> <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born> <http://www.wikidata.org/entity/Q313828/birth> .
+<http://www.wikidata.org/entity/Q313828/birth> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://www.wikidata.org/entity/Q313828/birth/time> .
+<http://www.wikidata.org/entity/Q313828/birth/time> <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within> "1883-08-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.wikidata.org/entity/Q313828/birth> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://www.researchspace.org/id/place/Vrpolje> .
+<http://www.researchspace.org/id/place/Vrpolje> <http://www.w3.org/2000/01/rdf-schema#label> "Vrpolje" .
+<http://www.researchspace.org/id/place/South%20Bend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<http://www.wikidata.org/entity/Q313828/death/time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+<http://www.wikidata.org/entity/Q313828/death> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E69_Death> .
+<http://www.wikidata.org/entity/Q313828> <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in> <http://www.wikidata.org/entity/Q313828/death> .
+<http://www.wikidata.org/entity/Q313828/death> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://www.researchspace.org/id/place/South%20Bend> .
+<http://www.researchspace.org/id/place/South%20Bend> <http://www.w3.org/2000/01/rdf-schema#label> "South Bend" .
+<http://www.wikidata.org/entity/Q313828/death> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://www.wikidata.org/entity/Q313828/death/time> .
+<http://www.wikidata.org/entity/Q313828/death/time> <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within> "1962-01-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.researchspace.org/id/group/Serbian%20Academy%20of%20Sciences%20and%20Arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
+<http://www.wikidata.org/entity/Q313828> <http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of> <http://www.researchspace.org/id/group/Serbian%20Academy%20of%20Sciences%20and%20Arts> .
+<http://www.researchspace.org/id/group/Serbian%20Academy%20of%20Sciences%20and%20Arts> <http://www.w3.org/2000/01/rdf-schema#label> "Serbian Academy of Sciences and Arts" .
+<http://www.researchspace.org/id/group/Serbian%20Academy%20of%20Sciences%20and%20Arts> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/group/organisation> .
+<http://www.wikidata.org/entity/Q313828> <http://www.researchspace.org/ontology/PX_gender> <http://www.researchspace.org/id/gender/male> .
+<http://www.researchspace.org/id/group/American%20Academy%20of%20Arts%20and%20Letters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
+<http://www.wikidata.org/entity/Q313828> <http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of> <http://www.researchspace.org/id/group/American%20Academy%20of%20Arts%20and%20Letters> .
+<http://www.researchspace.org/id/group/American%20Academy%20of%20Arts%20and%20Letters> <http://www.w3.org/2000/01/rdf-schema#label> "American Academy of Arts and Letters" .
+<http://www.researchspace.org/id/group/American%20Academy%20of%20Arts%20and%20Letters> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/group/organisation> .
+<http://www.wikidata.org/entity/Q313828/death/time> <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within> "1962-01-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.wikidata.org/entity/Q19602731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+<http://www.wikidata.org/entity/Q19602731> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/architect> .
+<http://www.wikidata.org/entity/Q19602731/appellation/Svetlana%20Kana%20Radevi%C4%87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
+<http://www.wikidata.org/entity/Q19602731> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://www.wikidata.org/entity/Q19602731/appellation/Svetlana%20Kana%20Radevi%C4%87> .
+<http://www.wikidata.org/entity/Q19602731/appellation/Svetlana%20Kana%20Radevi%C4%87> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Svetlana Kana Radević" .
+<http://www.wikidata.org/entity/Q19602731/appellation/Svetlana%20Kana%20Radevi%C4%87> <http://www.w3.org/2000/01/rdf-schema#label> "Svetlana Kana Radević" .
+<http://www.wikidata.org/entity/Q19602731> <http://www.w3.org/2000/01/rdf-schema#label> "Svetlana Kana Radević" .
+<http://www.wikidata.org/entity/Q19602731> <http://www.researchspace.org/ontology/PX_profession> <http://www.researchspace.org/profession/architect> .
+<http://www.wikidata.org/entity/Q19602731> <http://www.researchspace.org/ontology/PX_nationality> <http://www.researchspace.org/id/country/Yugoslavia> .
+<http://www.researchspace.org/id/place/Cetinje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<http://www.wikidata.org/entity/Q19602731/birth/time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+<http://www.wikidata.org/entity/Q19602731/birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> .
+<http://www.wikidata.org/entity/Q19602731> <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born> <http://www.wikidata.org/entity/Q19602731/birth> .
+<http://www.wikidata.org/entity/Q19602731/birth> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://www.wikidata.org/entity/Q19602731/birth/time> .
+<http://www.wikidata.org/entity/Q19602731/birth/time> <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within> "1937-11-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.wikidata.org/entity/Q19602731/birth> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://www.researchspace.org/id/place/Cetinje> .
+<http://www.researchspace.org/id/place/Cetinje> <http://www.w3.org/2000/01/rdf-schema#label> "Cetinje" .
+<http://www.researchspace.org/id/place/Montenegro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<http://www.wikidata.org/entity/Q19602731/death/time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+<http://www.wikidata.org/entity/Q19602731/death> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E69_Death> .
+<http://www.wikidata.org/entity/Q19602731> <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in> <http://www.wikidata.org/entity/Q19602731/death> .
+<http://www.wikidata.org/entity/Q19602731/death> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://www.researchspace.org/id/place/Montenegro> .
+<http://www.researchspace.org/id/place/Montenegro> <http://www.w3.org/2000/01/rdf-schema#label> "Montenegro" .
+<http://www.wikidata.org/entity/Q19602731/death> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://www.wikidata.org/entity/Q19602731/death/time> .
+<http://www.wikidata.org/entity/Q19602731/death/time> <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within> "2000-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.researchspace.org/id/group/Russian%20Academy%20of%20Architecture%20and%20Construction%20Sciences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
+<http://www.wikidata.org/entity/Q19602731> <http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of> <http://www.researchspace.org/id/group/Russian%20Academy%20of%20Architecture%20and%20Construction%20Sciences> .
+<http://www.researchspace.org/id/group/Russian%20Academy%20of%20Architecture%20and%20Construction%20Sciences> <http://www.w3.org/2000/01/rdf-schema#label> "Russian Academy of Architecture and Construction Sciences" .
+<http://www.researchspace.org/id/group/Russian%20Academy%20of%20Architecture%20and%20Construction%20Sciences> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/group/organisation> .
+<http://www.researchspace.org/id/gender/female> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
+<http://www.wikidata.org/entity/Q19602731> <http://www.researchspace.org/ontology/PX_gender> <http://www.researchspace.org/id/gender/female> .
+<http://www.researchspace.org/id/gender/female> <http://www.w3.org/2000/01/rdf-schema#label> "female" .
+<http://www.researchspace.org/id/group/Doclean%20Academy%20of%20Sciences%20and%20Arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
+<http://www.wikidata.org/entity/Q19602731> <http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of> <http://www.researchspace.org/id/group/Doclean%20Academy%20of%20Sciences%20and%20Arts> .
+<http://www.researchspace.org/id/group/Doclean%20Academy%20of%20Sciences%20and%20Arts> <http://www.w3.org/2000/01/rdf-schema#label> "Doclean Academy of Sciences and Arts" .
+<http://www.researchspace.org/id/group/Doclean%20Academy%20of%20Sciences%20and%20Arts> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/group/organisation> .
+<http://www.researchspace.org/id/group/Matica%20crnogorska> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
+<http://www.wikidata.org/entity/Q19602731> <http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of> <http://www.researchspace.org/id/group/Matica%20crnogorska> .
+<http://www.researchspace.org/id/group/Matica%20crnogorska> <http://www.w3.org/2000/01/rdf-schema#label> "Matica crnogorska" .
+<http://www.researchspace.org/id/group/Matica%20crnogorska> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/group/organisation> .
+
+}
